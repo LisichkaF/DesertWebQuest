@@ -1,0 +1,93 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    margin: 50px;
+    background: linear-gradient(0deg, #498867, #305946);
+    background-attachment: fixed;
+}
+.hidden {
+         display: none;
+        }
+.title
+{
+    font-size: 60px;
+    color: white;
+}
+
+.thing
+{
+    float: right;
+    font-family: Arial;
+    /*padding-left: 180px;*/
+}
+.registrationForm
+{
+    /*max-width: 500px;*/
+    margin: none;
+    /*right: 100px;*/
+    height: 550px;
+    width: 250px;
+
+    /*background-color: rgb(253, 249, 235);*/
+    /*text-align: center;*/
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #498867;
+  border: none;
+  /*Закругление*/
+  /*border-radius: 15px;*/
+}
+
+.button:hover {background-color: #305946}
+
+.button:active {
+  background-color: #305946;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.TabButton
+{
+    color: #a09786;
+    background-color: #30594600;
+    border: none;
+    box-shadow: 0 11px #b5aa96;
+    margin-bottom: 10px;
+}
+
+.UnactiveTabButton
+{
+    color: #fff;
+    background-color: #30594600;
+    border: none;
+    
+}
+
+.registrationFon
+{
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    height: 480px;
+    width: 250px;
+    /*background-color: rgb(253, 249, 235);*/
+    background-image: url("RegistationFieldFOn.png");
+    background-attachment: fixed;
+    background-size: 500px 700px;
+    
+}
+.hrblack
+{
+color: black;
+background-color: black;
+border: none;
+height: 1px;
+}

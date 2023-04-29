@@ -1,0 +1,63 @@
+<style>
+    * {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #272c1a;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.main {
+    -ms-flex: 70%;
+    flex: 70%;
+    /*background-color: rgb(140, 41, 12);*/
+    /*padding: 5px;*/
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2);
+    /*max-width: 500px;*/
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(253, 249, 235);
+    min-height: 1000px;
+    /*text-align: center;*/
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    /*background-image: url("https://cdn.discordapp.com/attachments/905819663995379753/924961714439589928/unknown.png");*/
+    /*background-color: rgb(18, 98, 67);*/
+    background: linear-gradient(0deg, #498867, #305946);
+    color: rgb(226, 229, 237);
+}
+.navbar {
+    padding-left: 20px;
+    color: rgb(226, 229, 237);
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+.hidden {
+         display: none;
+        }
+.QuestButton
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    width: 100%;
+    padding-left: 20px;
+    text-align: left;
+    height: 100px;
+    color:rgb(226, 229, 237)
+}
