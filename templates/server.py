@@ -12,7 +12,7 @@ def index():
             <head>
             <link rel="icon" type="image/x-icon" href="Dust.ico">
             <link rel="stylesheet" type="text/css" href="{url_for('static', filename='../static/css/MainStyle.css')}" />
-            <title>Testorion</title>
+            <title>MarhadQuest</title>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             </head>
@@ -68,7 +68,7 @@ def login():
             <head>
             <link rel="icon" type="image/x-icon" href="{url_for('static', filename='Dust.ico')}" />
             <link rel="stylesheet" type="text/css" href="{url_for('static', filename='../static/css/Lisostyle.css')}" />
-            <title>Testorion</title>
+            <title>MarhadQuest</title>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             </head>
@@ -83,8 +83,8 @@ def login():
             <div class="registrationFon">
                 <h3>Log in</h3>
                 <hr class="hrblack">
-             <p>Ваша почта<input type="email" style="font-family: 'Arial';" placeholder="example@mail.com" oninput="this.className = ''"></p>
-             <p>Ваш пароль <input type="password" style="font-family: 'Arial';" display: none placeholder="password" oninput="this.className = ''"></p>
+             <p>Ваша почта<input class="inputer" type="email" style="font-family: 'Arial';" placeholder="example@mail.com" oninput="this.className = ''"></p>
+             <p>Ваш пароль <input class="inputer" type="password" style="font-family: 'Arial';" display: none placeholder="password" oninput="this.className = ''"></p>
              <button class="button" href="GameScreen.html" style="width: 100px;">Log in</button>
              <hr class="hrblack">
             </div>
@@ -94,9 +94,9 @@ def login():
                 <div class="registrationFon">
                     <h3>Sign in</h3>
                 <hr class="hrblack">
-                <p>Ваше имя<input  type="nickname" name="nickname" id="nickname" style="font-family: 'Arial';" placeholder="Max Fray" oninput="this.className = ''"></p>
-                <p>Ваша почта<input type="email" name="email" id="email" style="font-family: 'Arial';" placeholder="example@mail.com" oninput="this.className = ''"></p>
-                <p>Ваш пароль <input type="password" name="password" id="password" style="font-family: 'Arial';" display: none placeholder="password" oninput="this.className = ''"></p>
+                <p>Ваше имя<input class="inputer" type="nickname" name="nickname" id="nickname" style="font-family: 'Arial';" placeholder="Max Fray" oninput="this.className = ''"></p>
+                <p>Ваша почта<input class="inputer" type="email" name="email" id="email" style="font-family: 'Arial';" placeholder="example@mail.com" oninput="this.className = ''"></p>
+                <p>Ваш пароль <input class="inputer" type="password" name="password" id="password" style="font-family: 'Arial';" display: none placeholder="password" oninput="this.className = ''"></p>
                 <button class="button" type="submit" style="width: 130px;">Sign in</button>
                 <hr class="hrblack">
                 </div>

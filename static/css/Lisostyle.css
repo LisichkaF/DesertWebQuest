@@ -1,10 +1,10 @@
- * {
+    * {
     box-sizing: border-box;
 }
 body {
     font-family: Arial;
     margin: 50px;
-    background: linear-gradient(0deg, #498867, #305946);
+    background: linear-gradient(0deg, #a17a6f, #665e5a);
     background-attachment: fixed;
 }
 .hidden {
@@ -14,6 +14,7 @@ body {
 {
     font-size: 60px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .thing
@@ -41,17 +42,16 @@ body {
   text-align: center;
   outline: none;
   color: #fff;
-  background-color: #498867;
+  background-color: #a17a6f;
   border: none;
   /*Закругление*/
   /*border-radius: 15px;*/
 }
 
-.button:hover {background-color: #305946}
+.button:hover {background-color: #926f65}
 
 .button:active {
-  background-color: #305946;
-  box-shadow: 0 5px #666;
+  background-color: #926f65;
   transform: translateY(4px);
 }
 
@@ -69,7 +69,7 @@ body {
     color: #fff;
     background-color: #30594600;
     border: none;
-    
+
 }
 
 .registrationFon
@@ -82,7 +82,7 @@ body {
     background-image: url("RegistationFieldFOn.png");
     background-attachment: fixed;
     background-size: 500px 700px;
-    
+
 }
 .hrblack
 {
@@ -90,4 +90,17 @@ color: black;
 background-color: black;
 border: none;
 height: 1px;
+}
+
+.inputer{
+  border: 2px solid #a17a6f;
+  background-color: rgb(220, 216, 202);
+  padding: 10px;
+  font-size: 16px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: black;
 }
